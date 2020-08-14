@@ -13,15 +13,10 @@ const handleSubmit = e => {
         title,
         author,
         page,
-        // id: Date.now(),
     };
-    //push item into our state
     books.push(book);
-    console.log(`There are now ${books.length}`);
-    //clear the form 
+    console.log(`There are now ${books.length}`); 
     e.target.reset();
-    // we create our own event called "itemUpdated"
-    list.dispatchEvent(new CustomEvent('itemsUpdated'));
 };
 
 const displayList = () => {
@@ -43,4 +38,3 @@ const displayList = () => {
 };
 
 descriptionForm.addEventListener('submit', handleSubmit);
-list.addEventListener('itemsUpdated', displayList);
