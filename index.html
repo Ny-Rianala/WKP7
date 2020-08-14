@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="reset.css" />
-		<link rel="stylesheet" href="style.css" />
-		<title>WKP7</title>
-	</head>
-	<body>
-		<script src="script.js"></script>
-	</body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>WKP7</title>
+</head>
+
+<body>
+  <header>
+    <h1>Library</h1>
+  </header>
+  <div>
+    <h2>Add a Book</h2>
+    <form class="book-description">
+        <label for="title"><b>Book Title</b></label>
+        <input type="text" placeholder="Title" name="title" id="title" required>
+        <label for="author"><b>Book Author</b></label>
+        <input type="text" placeholder="author" name="author" id="author" required>
+
+        <label for="Genre">Genre</label>
+        <select class="form-control" id="genre">
+          <option>thriller</option>
+          <option>romantic</option>
+          <option>fiction</option>
+        </select>
+        <label for="page"><b>Book Pages</b></label>
+        <input type="text" placeholder="page" name="page" id="page" required>
+        <label for="Status">Status</label>
+        <select class="form-control" id="status">
+          <option>thriller</option>
+          <option>romantic</option>
+          <option>fiction</option>
+        </select>
+        <button type="submit">Add</button>
+    </form>
+    <table>
+      <ul class="list"></ul>
+    </table>
+   
+  </div>
+    <script src="script.js"></script>
+</body>
+
 </html>
