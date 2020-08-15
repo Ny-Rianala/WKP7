@@ -13,50 +13,49 @@
   <header>
     <h1>Library</h1>
   </header>
-    <form class="book-description">
-      <h2>Add a Book</h2>
-      <ul>
-        <li>
-          <label for="title"><b>Book Title</b></label>
-          <input type="text" placeholder="Title" name="title" id="title" required>
-        </li>
-        <li>
-          <label for="author"><b>Book Author</b></label>
-          <input type="text" placeholder="author" name="author" id="author" required>
-        </li>
-        <li>
-          <label for="Genre">Genre</label>
-          <select class="form-control" id="genre">
-            <option>thriller</option>
-            <option>romantic</option>
-            <option>fiction</option>
-          </select>
-        </li>
-        <li>
-          <label for="page"><b>Book Pages</b></label>
-          <input type="text" placeholder="page" name="page" id="page" required>
-        </li>
-        <li>
-          <label for="Status">Status</label>
-          <select class="form-control" id="status">
-            <option>thriller</option>
-            <option>romantic</option>
-            <option>fiction</option>
-          </select>
-        </li>
-        <button type="submit">Add</button>
-    </form>
-    <table class="list"></table>
-    <table>
-      <tr>
-        <th>Title</th>
-        <th>Genre</th>
-        <th>Page</th>
-        <th>Read</th>
-      </tr>
-    </table>
-  </li>
-    <script src="script.js"></script>
+  <form class="book-description">
+    <h2>Add a Book</h2>
+    <ul>
+      <div>
+        <label for="title"><b>Book Title</b></label>
+        <input type="text" placeholder="Title" name="title" id="title" required>
+      </div>
+      <div>
+        <label for="author"><b>Book Author</b></label>
+        <input type="text" placeholder="author" name="author" id="author" required>
+      </div>
+      <div>
+        <label for="Genre">Genre</label>
+        <select class="form-control" id="genre">
+          <option>thriller</option>
+          <option>romantic</option>
+          <option>fiction</option>
+        </select>
+      </div>
+      <div>
+        <label for="page"><b>Book Pages</b></label>
+        <input type="text" placeholder="page" name="page" id="page" required>
+      </div>
+      <div>
+        <label for="Status">Status</label>
+        <select class="form-control" id="status">
+          <option>read</option>
+          <option>not read</option>
+        </select>
+      </div>
+      <button class="add-book" type="submit">Add</button>
+  </form>
+  <table class="list"></table>
+  <table>
+    <th>
+    <td>Title</td>
+    <td>Genre</td>
+    <td>Page</td>
+    <td>Read</td>
+    </th>
+  </table>
+  <ul class="list-of-book"></ul>
+  <script src="script.js"></script>
 </body>
 
 </html>
