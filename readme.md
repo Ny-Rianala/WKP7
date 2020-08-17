@@ -1,35 +1,15 @@
-# WKP7 - Library
+ # Report wkpk7
 
-### Hey team!
-
-Hope you are ready for a new challenge. I have a nice one for you this week. We're going to build a library management application. The application will consist on a form to add a book, and a table listing all the books. After submitting the form, the new book will appear on the book table.
-
-### Here is the mockup of our library app.
-
-![assets/wkp7-library.png](assets/wkp7-library.png)
-
-[You can also access the design through figma.](https://www.figma.com/file/FoD2jZb5oOGZvTUMop0nbA/WKP7?node-id=1%3A2)
-
-### A book needs those attributes :
-
--   A title
--   An author
--   A genre (Mystery, Thriller, Fiction, Non-fiction, Fantasy, Design, Memoirs...)
--   A number of pages
--   A status (Read or not)
-
-### Requirements :
-
--   When users load the app for the first time, a list of 3 books minimum should already be present on the list. The list will always be generated dynamically with some state in the javascript.
--   Users should be able to change the read attribute status by clicking the checkbox (and the changes will be reflected in the app state)
--   Users should be able to delete a book from the list by clicking the trash icon (and reflect that in the app state as well)
--   When a user come back to the app with the same browser, they should see the same book list as it was, before they left the app. Save the current book list to your browser's _Local Storage_.
-
-### Tips :
-
--   Focus on the features first, and if you have some time left, try to replicate this design.
--   Start by choosing the book data structure, and create a few of them in the code.
--   Focus on your basic app functionality first, and then try to save the state of your app to _Local Storage_.
--   I suggest you to look back to the Shopping List exercise we did together (Video 57). There is a lot of similarities between the exercise and this project 😉
-
-### Good luck team 🙌
+### Structure
+-  Firstly, I created an object of array for the list and variables.
+-  Secondly, I created a function to grab all of the list inside of the object.
+-  Thirdly, there is a new function that will show the form.
+- Finally, there is a function that will handle the submit button and there is an eventlistener that listen for a submit.  
+### Time
+-  If I have more time I would solve the problem in the event listener first because, it gave me an error that it could not read the property of null. Also, I will make sure that evrything is in the correct place such as the css, cleaning the code.  
+### Challenging parts  
+-  For me, I do not really know how can we have the value from. I only remember litle thing but I think they are not correct because it did not work.
+### What I need more explanation
+I think I need more explanation in the input form and its relation with the submit. 
+### Comments
+I am sorry because I did not see the message that we don't need the list anymore and I still added it there. 
