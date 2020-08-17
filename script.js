@@ -45,6 +45,8 @@ const listedBook = (e) => {
 
 listedBook();
 
+//function that will  grab th form
+
 const getListOfBook = () => {
     const html = books
         .map(
@@ -65,6 +67,8 @@ const getListOfBook = () => {
     list.innerHTML = html;
 };
 
+
+//handle the subnit button
 const handleSubmit = e => {
     e.preventDefault;
     const form = e.currentTarget;
@@ -80,4 +84,5 @@ const handleSubmit = e => {
     allBooks.push(newBook);
 };
 
+//listen for submit
 addBooksForm.addEventListener('submit', handleSubmit);
