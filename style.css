@@ -1,19 +1,8 @@
-div {
+div ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
-
-
-* {
-    box-sizing: border-box;
-}
-
-
-li {
-    display: flex;
-    flex-direction: row;
-}
-
 
  input[type=text] { 
     padding: 8px;
